@@ -4,6 +4,7 @@ phases:
     commands:
       - echo Installing source NPM dependencies...
       - npm install
+      - npm install react-dev-utils
   build:
     commands:
       - echo Build started on `date`
